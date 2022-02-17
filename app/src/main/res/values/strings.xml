@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Overseas</string>
+    <string name="amount_editText">Enter amount in feet</string>
+    <string name="length_textView">Length</string>
+    <string name="result_textView">Result</string>
+    <string name="button_toInches">To Inches</string>
+    <string name="button_toFeet">To Feet</string>
+    <string name="button_toCentimeters">To cms</string>
+    <string name="button_toMeters">To m</string>
+    <string name="facebook_app_id">[APP_ID]</string>
+    <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
+</resources>

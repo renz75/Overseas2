@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Overseas</string>
+    <string name="amount_editText">Entre cantidad en pies</string>
+    <string name="length_textView">Longitud</string>
+    <string name="result_textView">Resultado</string>
+    <string name="button_toInches">A pulgadas</string>
+    <string name="button_toFeet">A pies</string>
+    <string name="button_toCentimeters">A cms</string>
+    <string name="button_toMeters">A m</string>
+</resources>

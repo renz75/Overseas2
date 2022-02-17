@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Overseas</string>
+    <string name="amount_editText">Länge in Fuß angeben</string>
+    <string name="length_textView">Länge</string>
+    <string name="result_textView">Ergebnis</string>
+    <string name="button_toCentimeters">In cm</string>
+    <string name="button_toMeters">In Meter</string>
+    <string name="button_toInches">In Zoll</string>
+    <string name="button_toFeet">In Fuß</string>
+</resources>

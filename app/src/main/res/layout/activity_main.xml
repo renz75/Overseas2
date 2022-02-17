@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/lengthTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/padding_Inside"
+        android:text="@string/length_textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+
+        android:background="@color/background_edittext"
+        android:ems="10"
+        android:hint="@string/amount_editText"
+        android:inputType="numberDecimal"
+        android:padding="@dimen/padding_Inside"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColorHint="@color/black"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:padding="@dimen/padding_Inside"
+        android:text="@string/result_textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/convertTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_gravity="fill_horizontal"
+        android:padding="@dimen/padding_Inside"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/buttonToInches"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:padding="@dimen/padding_Inside"
+        android:text="@string/button_toInches"
+        android:textColor="#37474F" />
+
+    <Button
+        android:id="@+id/buttonToFeet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:padding="@dimen/padding_Inside"
+        android:text="@string/button_toFeet"
+        android:textColor="#37474F" />
+
+    <Button
+        android:id="@+id/buttonToCentimeters"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_Inside"
+        android:text="@string/button_toCentimeters"
+        android:textColor="#37474F" />
+
+    <Button
+        android:id="@+id/buttonToMeters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:padding="@dimen/padding_Inside"
+        android:text="@string/button_toMeters"
+        android:textColor="#37474F" />
+</GridLayout>
